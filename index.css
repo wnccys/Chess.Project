@@ -14,17 +14,87 @@ td {
 } 
 
 .black  {
-    background-color: #b58763;
+    background-color: #ca8c5d;
 } 
 
 .white {
-    background-color: #f0dab5; 
+    background-color: #f1ddbb; 
 } 
 
-#a1 {
-    background-image: url(https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wk.png); 
-    padding: 0px;
-    margin: 0px;
-    height: 65px;
-    width: 65px;
+/*White pieces*/
+
+#e1 { /*King*/
+    background-image: url(https://images.chesscomfiles.com/chess-themes/pieces/game_room/150/wk.png);
+    background-size: 100%;
 }
+   
+
+#a1, #h1 { /*Rook*/
+    background-image: url(https://images.chesscomfiles.com/chess-themes/pieces/game_room/150/wr.png);
+    background-size: 100%;
+
+}
+
+#b1, #g1 { /*Knight*/
+    background-image: url(https://images.chesscomfiles.com/chess-themes/pieces/game_room/150/wn.png);
+    background-size: 100%;
+}
+
+#c1, #f1  { /*Bishop */
+    background-image: url(https://images.chesscomfiles.com/chess-themes/pieces/game_room/150/wb.png);
+    background-size: 100%;
+} 
+
+#d1 { /*Queen */
+    background-image: url(https://images.chesscomfiles.com/chess-themes/pieces/game_room/150/wq.png);
+    background-size: 100%;
+} 
+
+#a2, #b2, #c2, #d2, #e2, #f2, #g2, #h2{ /*Paws */
+    background-image: url(https://images.chesscomfiles.com/chess-themes/pieces/game_room/150/wp.png);
+    background-size: 100%;
+}  
+
+/*Black pieces---------------------------------------*/
+
+#e8 { /*King*/
+    background-image: url(https://images.chesscomfiles.com/chess-themes/pieces/game_room/150/bk.png);
+    background-size: 100%;
+}
+
+#a8, #h8 { /*Rook*/
+    background-image: url(https://images.chesscomfiles.com/chess-themes/pieces/game_room/150/br.png);
+    background-size: 100%;
+
+}
+
+#b8, #g8 { /*Knight*/
+
+    background-image: url(https://images.chesscomfiles.com/chess-themes/pieces/game_room/150/bn.png);
+    background-size: 100%;
+
+}
+
+#c8, #f8  { /*Bishop */
+    background-image: url(https://images.chesscomfiles.com/chess-themes/pieces/game_room/150/bb.png);
+    background-size: 100%;
+} 
+
+
+#d8 { /*Queen */
+    background-image: url(https://images.chesscomfiles.com/chess-themes/pieces/game_room/150/bq.png);
+    background-size: 100%;
+} 
+
+#a7, #b7, #c7, #d7, #e7, #f7, #g7, #h7{ /*Paws */
+    background-image: url(https://images.chesscomfiles.com/chess-themes/pieces/game_room/150/bp.png);
+    background-size: 100%;
+}   
+
+span {
+    color: rgb(0, 0, 0);
+    font-size: x-small; 
+    top: 1px;
+}
+
+
