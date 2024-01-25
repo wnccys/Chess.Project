@@ -1,0 +1,30 @@
+
+table{
+    border: 2px solid black;
+    margin: auto; /*Centraliza a tabela*/
+    border-collapse: collapse; /*As bordas sem fundem em uma única só borda*/
+  } 
+
+td {
+    width: 65.5px;
+    height: 61.5px;
+    padding: 0;
+    border: 2px solid black; 
+   
+} 
+
+.black  {
+    background-color: #b58763;
+} 
+
+.white {
+    background-color: #f0dab5; 
+} 
+
+#a1 {
+    background-image: url(https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wk.png); 
+    padding: 0px;
+    margin: 0px;
+    height: 65px;
+    width: 65px;
+}
