@@ -13,88 +13,121 @@ td {
    
 } 
 
-.black  {
+.black-square  {
     background-color: #ca8c5d;
 } 
 
-.white {
+.white-square {
     background-color: #f1ddbb; 
 } 
 
 /*White pieces*/
 
-#e1 { /*King*/
+.white-king { /*King*/
     background-image: url(https://images.chesscomfiles.com/chess-themes/pieces/game_room/150/wk.png);
     background-size: 100%;
 }
-   
-
-#a1, #h1 { /*Rook*/
+    
+.white-rook { /*Rook*/
     background-image: url(https://images.chesscomfiles.com/chess-themes/pieces/game_room/150/wr.png);
-    background-size: 100%;
-
+    background-size: 100%; 
 }
 
-#b1, #g1 { /*Knight*/
+.white-knight { /*Knight*/
     background-image: url(https://images.chesscomfiles.com/chess-themes/pieces/game_room/150/wn.png);
     background-size: 100%;
 }
 
-#c1, #f1  { /*Bishop */
+.white-bishop  { /*Bishop */
     background-image: url(https://images.chesscomfiles.com/chess-themes/pieces/game_room/150/wb.png);
     background-size: 100%;
 } 
 
-#d1 { /*Queen */
+.white-queen { /*Queen */
     background-image: url(https://images.chesscomfiles.com/chess-themes/pieces/game_room/150/wq.png);
     background-size: 100%;
 } 
 
-#a2, #b2, #c2, #d2, #e2, #f2, #g2, #h2{ /*Paws */
+.white-pawn { /*Paws*/
     background-image: url(https://images.chesscomfiles.com/chess-themes/pieces/game_room/150/wp.png);
     background-size: 100%;
 }  
 
-/*Black pieces---------------------------------------*/
+/*Black pieces-----------------------------------------------------------------------------------------*/
 
-#e8 { /*King*/
+.black-king { /*King*/
     background-image: url(https://images.chesscomfiles.com/chess-themes/pieces/game_room/150/bk.png);
     background-size: 100%;
 }
 
-#a8, #h8 { /*Rook*/
+.black-rook { /*Rook*/
     background-image: url(https://images.chesscomfiles.com/chess-themes/pieces/game_room/150/br.png);
     background-size: 100%;
 
 }
 
-#b8, #g8 { /*Knight*/
+.black-knight { /*Knight*/
 
     background-image: url(https://images.chesscomfiles.com/chess-themes/pieces/game_room/150/bn.png);
     background-size: 100%;
 
 }
 
-#c8, #f8  { /*Bishop */
+.black-bishop { /*Bishop */
     background-image: url(https://images.chesscomfiles.com/chess-themes/pieces/game_room/150/bb.png);
     background-size: 100%;
 } 
 
 
-#d8 { /*Queen */
+.black-queen { /*Queen */
     background-image: url(https://images.chesscomfiles.com/chess-themes/pieces/game_room/150/bq.png);
     background-size: 100%;
 } 
 
-#a7, #b7, #c7, #d7, #e7, #f7, #g7, #h7{ /*Paws */
+.black-pawn { /*Paws */
     background-image: url(https://images.chesscomfiles.com/chess-themes/pieces/game_room/150/bp.png);
     background-size: 100%;
 }   
 
-span {
-    color: rgb(0, 0, 0);
-    font-size: x-small; 
-    top: 1px;
+/*Algebra notation---------------------------------------------------------------------------------- */ 
+
+.black-num { /*Cor preta da notação algébrica (números) */ 
+    color: black;
+    font-size: small; 
+    margin-left: 2px;
+    margin-bottom: 42px;
+    font-weight: bold;
+} 
+
+.white-num { /*Cor branca da notação algébrica (números) */ 
+    color: white;
+    font-size: small; 
+    margin-left: 2px;
+    margin-bottom: 42px;
+    font-weight: bold;
+}  
+
+.black-letter { /*Cor preta da notação algébrica (letras) */ 
+    color: black;
+    font-size: small; 
+    margin-left: 58px;
+    margin-top: 45px;
+    font-weight: bold;
+    
+} 
+
+.white-letter { /*Cor preta da notação algébrica (letras) */ 
+    color: white;
+    font-size: small; 
+    margin-left: 58px;
+    margin-top: 45px;
+    font-weight: bold;
+} 
+
+div.white-num { /*Div inside div */ 
+    height: 0;
+}   
+
+body {
+    background-color: azure;
 }
-
-
