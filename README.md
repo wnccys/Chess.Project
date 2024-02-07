@@ -1,3 +1,3 @@
 # Chess.Project
 
-New updates about chess is comming soon 
+New updates about chess is coming soon 
