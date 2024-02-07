@@ -63,7 +63,6 @@ td {
 .black-rook { /*Rook*/
     background-image: url(https://images.chesscomfiles.com/chess-themes/pieces/game_room/150/br.png);
     background-size: 100%;
-
 }
 
 .black-knight { /*Knight*/
@@ -113,7 +112,7 @@ td {
     margin-left: 58px;
     margin-top: 45px;
     font-weight: bold;
-    
+    transform: translateX(-57px);
 } 
 
 .white-letter { /*Cor preta da notação algébrica (letras) */ 
@@ -122,6 +121,7 @@ td {
     margin-left: 58px;
     margin-top: 45px;
     font-weight: bold;
+    transform: translateX(-57px);
 } 
 
 div.white-num { /*Div inside div */ 
